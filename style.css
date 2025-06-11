@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.price{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: ;
+}
+.price h1{
+    margin: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.price .subprice{
+    width: 70%;
+    display: flex;
+    padding: 80px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+.price .subprice .sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.price .subprice .sub1 p{
+    padding: 25px 0;
+    line-height: 1.5;
+    color: gray;
+}
+.price .subprice .sub1 ul{
+    padding: 20px
+}
+.price .subprice .sub1 ul li{
+    color: grey;
+    padding: 10px
+}
+.price .subprice .sub2{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.price .subprice .sub2 p{
+    color: grey;
+    font-weight: 600;
+}
+.price .subprice .sub2 h1{
+    font-size: 60px;
+}
+.price .subprice .sub2 a{
+    text-decoration:none;
+}
+.price .subprice .sub2 a button{
+color: white;
+font-weight: 600;
+padding: 12px 80px;
+border-radius: 10px;
+border: none;
+background: rgb(42, 16, 238);
+cursor: pointer;
+}
+
+@media (max-width:1015px) {
+    .price h1{
+        font-size: 30px;
+    }
+    .price .subprice{
+        flex-direction: column;
+    }
+    .price .subprice{
+        /* width: 85%; */
+    }
+}
+@media (max-width:725px) {
+    .price h1{
+        font-size: 25px;
+    }
+    .price .subprice{
+        flex-direction: column;
+        /* padding: 65px; */
+    }
+    .price .subprice{
+        /* width: 90%; */
+        padding: 50px;
+    }
+    .price .subprice .sub2{
+        width: 240px;
+        height: 240px;
+        padding: 25px;
+    }
+    .price .subprice .sub2 h1{
+        font-size: 50px;
+    }
+    .price .subprice .sub2 a button{
+    color: white;
+    font-weight: 600;
+    padding: 12px 50px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(42, 16, 238);
+    cursor: pointer;
+    }
+}
